@@ -1,0 +1,13 @@
+<div>
+    <h2>Créez un article</h2>
+      <form id="formCreation" #formCreation="ngForm" [formGroup]="articleForm"  #formCreation = "ngForm">
+       <div class="form-group">
+          <label class="center-block">Code barre n°:
+            <input id="titre" class="form-control" formControlName="title">
+          </label>
+          <label class="center-block">Description:
+            <textarea id="content" class="form-control" formControlName="content"></textarea>
+          </label>
+        </div>
+      </form>
+ </div>

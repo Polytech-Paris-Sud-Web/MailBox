@@ -64,11 +64,15 @@
 <body>
 
 <div class="topnav">
-    <a  id="Create" class="active" >Creer un code bar</a>
-    <a  id="CB" class="button button2">Liste des codes barres</a>
+    <a routerLink="/scan" id="list" class="active" href="#scan">Scan</a>
+    <a routerLink="/article" id="CB" class="button button2" href="#article">Code bar</a>
+    <a routerLink="/listArticle" id="Scan" class="button button3" href="#listArticle">Liste des codes barres</a>
   </div>
 
+  
 <div>
+    <router-outlet></router-outlet>
 </div>
 
 </body>
+
