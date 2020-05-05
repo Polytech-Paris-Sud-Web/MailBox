@@ -1,5 +1,5 @@
 import {NgModule} from '@angular/core';
-import {NgxBarcodeScannerComponent} from './ngx-barcode-scanner.component';
+import {NgxBarcodeScannerComponent} from './barcode-scanner.component';
 
 
 @NgModule({
