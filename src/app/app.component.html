@@ -67,12 +67,21 @@
     <a routerLink="/scan" id="list" class="active" href="#scan">Scan</a>
     <a routerLink="/article" id="CB" class="button button2" href="#article">Code bar</a>
     <a routerLink="/listArticle" id="Scan" class="button button3" href="#listArticle">Liste des codes barres</a>
-  </div>
+</div>
 
+<div>
+  <h1>Barcode Scanner - detected barcode: <small style="color: blue">{{value}}</small></h1>
+  <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
+  <ngx-barcode-scanner [(value)]="value"
+                       [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1" (exception)="onError($event)"></ngx-barcode-scanner>
+  
+  </div>
   
 <div>
     <router-outlet></router-outlet>
 </div>
 
 </body>
+
+
 

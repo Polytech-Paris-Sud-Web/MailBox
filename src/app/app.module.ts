@@ -11,6 +11,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ArticleComponent } from './article/article.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 
+import {NgxBarcodeScannerModule} from '../barcode-scanner/src/lib/ngx-barcode-scanner.module';
+
 
 
 const appRoutes: Routes = [
@@ -29,6 +31,7 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    NgxBarcodeScannerModule,
     HttpClientModule,
     ReactiveFormsModule,
     AppRoutingModule,
