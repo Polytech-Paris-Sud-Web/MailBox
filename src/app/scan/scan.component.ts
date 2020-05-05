@@ -11,5 +11,13 @@ export class ScanComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  value: string;
+  isError = false;
+
+  onError(error) {
+    console.error(error);
+    this.isError = true;
+  }
+
 
 }

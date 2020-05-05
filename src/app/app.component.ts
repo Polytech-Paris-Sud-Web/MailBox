@@ -8,13 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'ScanTool';
 
-  value: string;
-  isError = false;
 
-  onError(error) {
-    console.error(error);
-    this.isError = true;
-  }
 
 
 }
