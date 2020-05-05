@@ -15,11 +15,12 @@ import {NgxBarcodeScannerModule} from '../barcode-scanner/src/lib/ngx-barcode-sc
 
 
 
+
 const appRoutes: Routes = [
   { path: 'listArticle', component: ListArticleComponent },
   { path: 'article', component: ArticleComponent },
   { path: 'scan', component: ScanComponent },
-  { path: '', component: AppComponent }
+  { path: '', component: ListArticleComponent }
 ]
 
 @NgModule({

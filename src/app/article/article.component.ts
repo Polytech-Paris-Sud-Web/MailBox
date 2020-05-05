@@ -6,10 +6,23 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
+    private _title : string;
+    private _content : string;
 
-  constructor() { }
+    constructor(){
+        this._title = "First Article";
+        this._content = "Hello World";
+    }
 
-  ngOnInit(): void {
+    public title() : string{
+        return this._title;
+    }
+
+    public content() : string{
+        return this._content;
+    }
+
+  ngOnInit() {
   }
 
 }

@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mailbox';
+  title = 'ScanTool';
 
   value: string;
   isError = false;
@@ -15,4 +15,6 @@ export class AppComponent {
     console.error(error);
     this.isError = true;
   }
+
+
 }
