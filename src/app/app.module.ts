@@ -13,11 +13,12 @@ import { ListArticleComponent } from './list-article/list-article.component';
 
 
 
+
 const appRoutes: Routes = [
   { path: 'listArticle', component: ListArticleComponent },
   { path: 'article', component: ArticleComponent },
   { path: 'scan', component: ScanComponent },
-  { path: '', component: AppComponent }
+  { path: '', component: ListArticleComponent }
 ]
 
 @NgModule({
