@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import Quagga, {QuaggaJSConfigObject, QuaggaJSResultObject} from '@ericblade/quagga2';
+import Quagga, {QuaggaJSConfigObject, QuaggaJSResultObject} from 'quagga';
 import {Observable, Subject} from 'rxjs';
 
 @Injectable({

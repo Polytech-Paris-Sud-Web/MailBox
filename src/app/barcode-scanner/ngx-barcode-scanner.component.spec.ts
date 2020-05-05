@@ -1,6 +1,6 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
 import {NgxBarcodeScannerComponent} from './ngx-barcode-scanner.component';
-import Quagga, {QuaggaJSConfigObject} from '@ericblade/quagga2';
+import Quagga, {QuaggaJSConfigObject} from 'quagga';
 
 describe('NgxBarcodeScannerComponent', () => {
   let component: NgxBarcodeScannerComponent;
