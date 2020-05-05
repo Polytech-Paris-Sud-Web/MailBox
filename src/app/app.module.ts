@@ -11,7 +11,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ArticleComponent } from './article/article.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 
-import {NgxBarcodeScannerModule} from './barcode-scanner/ngx-barcode-scanner.module';
+import {NgxBarcodeScannerModule} from './barcode-scanner/barcode-scanner.module';
 
 
 
