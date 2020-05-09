@@ -22,6 +22,7 @@
     "@angular/service-worker": "~9.1.4",
     "@ericblade/quagga2": "^1.0.2",
     "jsbarcode": "^3.11.0",
+    "ngx-barcode": "^0.2.4",
     "ngx-barcode6": "^1.0.10",
     "quagga": "^0.12.1",
     "rxjs": "~6.5.4",
