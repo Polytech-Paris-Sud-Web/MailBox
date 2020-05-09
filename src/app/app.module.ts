@@ -12,6 +12,7 @@ import { ArticleComponent } from './article/article.component';
 import { ListArticleComponent } from './list-article/list-article.component';
 
 import {NgxBarcodeScannerModule} from './barcode-scanner/barcode-scanner.module';
+import { NgxBarcode6Module } from 'ngx-barcode6';
 
 
 
@@ -33,6 +34,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     NgxBarcodeScannerModule,
+    NgxBarcode6Module,
     HttpClientModule,
     ReactiveFormsModule,
     AppRoutingModule,

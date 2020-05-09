@@ -3,4 +3,13 @@
     <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
     <ngx-barcode-scanner [(value)]="value"
                          [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1" (exception)="onError($event)"></ngx-barcode-scanner>
+</div>
+
+<div style="text-align:center">
+    <ngx-barcode6
+      [bc-format]="'MSI'"
+      [bc-value]="value"
+      [bc-display-value]="true"
+    >
+    </ngx-barcode6>
   </div>

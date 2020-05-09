@@ -1,7 +1,7 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import {NgxBarcodeScannerService} from './barcode-scanner.service';
 import {QuaggaJSConfigObject} from 'quagga';
-import {Utils} from './utils';
+import {Utils} from '../utils';
 
 @Component({
   // tslint:disable-next-line:component-selector
