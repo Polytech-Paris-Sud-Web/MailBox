@@ -16,6 +16,8 @@ export class ArticleComponent implements OnInit {
   @Output("askForDelete")
   deleteArticle: EventEmitter<Article> = new EventEmitter<Article>();
 
+  articles: Article[] = []
+
   constructor(
     private router: Router,
     private route: ActivatedRoute,
@@ -25,8 +27,6 @@ export class ArticleComponent implements OnInit {
   get Code(): string {
     return this.article.Code;
   }
-
-
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
@@ -39,7 +39,7 @@ export class ArticleComponent implements OnInit {
       }
     })
   }
-
+  
   delete(): void {
     const id = this.article.id;
     this.articleService.deleteArticle(id).subscribe(

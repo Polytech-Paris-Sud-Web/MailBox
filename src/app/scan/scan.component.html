@@ -1,10 +1,11 @@
 <div>
-    <h1>Barcode Scanner - Code barre détecté: <small style="color: blue">{{value}}</small></h1>
+    <h1>Barcode Scanner</h1>
     <h3>Passer votre article dans la caméra ci-dessous</h3>
+    <h2>Code barre détecté: <small style="color: blue">{{value}}</small> </h2>
     <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
     <barcode-scanner [(value)]="value"
                          [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1" (exception)="onError($event)"></barcode-scanner>
 </div>
 <ngx-barcode [bc-value]="value" [bc-display-value]="true"></ngx-barcode>
-<button class="btn btn-success" [disabled]="articleForm.invalid" type="submit">Enregistrer l'article</button>
+<button class="btn btn-success" type="submit">Enregistrer l'article</button>
 

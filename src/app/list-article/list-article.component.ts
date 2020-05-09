@@ -10,7 +10,7 @@ import { ArticleService } from '../article.service';
 export class ListArticleComponent implements OnInit {
 
   articles: Article[] = []
-  filterValue: string = '';
+  filterValue = '';
 
   constructor(private articleService: ArticleService) { }
 
