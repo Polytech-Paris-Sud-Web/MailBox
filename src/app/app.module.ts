@@ -9,6 +9,7 @@ import { RouterModule, Routes } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ArticleComponent } from './article/article.component';
+import { ArticleService } from './article.service';
 import { ListArticleComponent } from './list-article/list-article.component';
 
 import {BarcodeScannerModule} from './barcode-scanner/barcode-scanner.module';
@@ -44,7 +45,7 @@ const appRoutes: Routes = [
       { enableTracing: true } // <-- debugging purposes only
     )
   ],
-  providers: [],
+  providers: [ArticleService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

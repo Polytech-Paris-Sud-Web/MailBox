@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Article } from './article.class';
+import { ArticleService } from '../article.service';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-article',
@@ -6,23 +9,47 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./article.component.css']
 })
 export class ArticleComponent implements OnInit {
-    private _title : string;
-    private _content : string;
 
-    constructor(){
-        this._title = "First Article";
-        this._content = "Hello World";
-    }
+  @Input("article")
+  article: Article;
 
-    public title() : string{
-        return this._title;
-    }
+  @Output("askForDelete")
+  deleteArticle: EventEmitter<Article> = new EventEmitter<Article>();
 
-    public content() : string{
-        return this._content;
-    }
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private articleService: ArticleService
+  ) { }
 
-  ngOnInit() {
+  get Code(): string {
+    return this.article.Code;
+  }
+
+
+
+  ngOnInit(): void {
+    this.route.params.subscribe((params) => {
+      if ("id" in params) {
+        const id = params.id;
+        this.articleService.getArticle(id).subscribe(
+          (article) => this.article = article,
+          () => console.error("cannot load article: ", id)
+        )
+      }
+    })
+  }
+
+  delete(): void {
+    const id = this.article.id;
+    this.articleService.deleteArticle(id).subscribe(
+      () =>　{
+        this.deleteArticle.emit(this.article);
+        this.router.navigate(['/articles']);
+      },
+      (error) => console.error('cannot delete article: ',id, error)
+    );
+
   }
 
 }

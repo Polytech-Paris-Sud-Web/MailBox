@@ -1,3 +1,6 @@
-<div>
-    <p>test</p>
-</div>
+<div class="article_container" *ngIf="this.article">
+    <h3><a [routerLink]="['/articles',this.article.id]">{{this.Code}}</a></h3>
+    <p>cacapipipopo</p>
+
+    <button (click)="this.delete()"> Supprimer </button>
+  </div>
