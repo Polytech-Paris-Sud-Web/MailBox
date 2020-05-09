@@ -18,7 +18,7 @@ import { NgxBarcodeModule } from 'ngx-barcode';
 
 
 const appRoutes: Routes = [
-  { path: 'listArticle', component: ListArticleComponent },
+  { path: 'list-article', component: ListArticleComponent },
   { path: 'article', component: ArticleComponent },
   { path: 'scan', component: ScanComponent },
   { path: '', component: ListArticleComponent }
