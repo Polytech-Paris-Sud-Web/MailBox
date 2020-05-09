@@ -46,12 +46,17 @@ export class BarcodeScannerService {
     Quagga.onProcessed((scanResult: QuaggaJSResultObject) => {
       this.onProcessed(scanResult);
     });
+
     Quagga.onDetected((result: QuaggaJSResultObject) => {
       const barcode = result.codeResult.code;
       if (this.isScanMatch(result, errorThresholdPercentage)) {
         this.scanResult.next(barcode + '');
       }
     });
+
+function sanityCheck(s) {
+      return s.toUpperCase().match(/^[0-9A-Z\s\-\.\/]+$/);
+}
 
     Quagga.init(config, (error) => {
       if (error) {
