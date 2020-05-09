@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import {BarcodeScannerService} from './barcode-scanner.service';
+import {BarcodeScannerService} from '../services/barcode-scanner.service';
 import {QuaggaJSConfigObject} from 'quagga';
 import {Utils} from '../utils';
 
