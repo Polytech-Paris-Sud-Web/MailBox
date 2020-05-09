@@ -1,11 +1,11 @@
 import {NgModule} from '@angular/core';
-import {NgxBarcodeScannerComponent} from './barcode-scanner.component';
+import {BarcodeScannerComponent} from './barcode-scanner.component';
 
 
 @NgModule({
-  declarations: [NgxBarcodeScannerComponent],
+  declarations: [BarcodeScannerComponent],
   imports: [],
-  exports: [NgxBarcodeScannerComponent]
+  exports: [BarcodeScannerComponent]
 })
-export class NgxBarcodeScannerModule {
+export class BarcodeScannerModule {
 }

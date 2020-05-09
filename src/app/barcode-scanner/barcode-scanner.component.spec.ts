@@ -1,14 +1,14 @@
 import {ComponentFixture, TestBed} from '@angular/core/testing';
-import {NgxBarcodeScannerComponent} from './ngx-barcode-scanner.component';
+import {BarcodeScannerComponent} from './barcode-scanner.component';
 import Quagga, {QuaggaJSConfigObject} from 'quagga';
 
-describe('NgxBarcodeScannerComponent', () => {
-  let component: NgxBarcodeScannerComponent;
-  let fixture: ComponentFixture<NgxBarcodeScannerComponent>;
+describe('BarcodeScannerComponent', () => {
+  let component: BarcodeScannerComponent;
+  let fixture: ComponentFixture<BarcodeScannerComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [NgxBarcodeScannerComponent]
+      declarations: [BarcodeScannerComponent]
     }).compileComponents();
   });
 
@@ -16,7 +16,7 @@ describe('NgxBarcodeScannerComponent', () => {
     beforeEach(() => {
       spyOn(Quagga.CameraAccess, 'request').and.callFake(() => Promise.reject('Permission denied'));
 
-      fixture = TestBed.createComponent(NgxBarcodeScannerComponent);
+      fixture = TestBed.createComponent(BarcodeScannerComponent);
       component = fixture.componentInstance;
 
     });
@@ -76,7 +76,7 @@ describe('NgxBarcodeScannerComponent', () => {
     });
   });
 
-  // describe('Camera available', () => {
-  //   xit('should scan a barcode');
-  // });
+  describe('Camera available', () => {
+   xit('should scan a barcode');
+ });
 });

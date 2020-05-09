@@ -1,15 +1,15 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
-import {NgxBarcodeScannerService} from './barcode-scanner.service';
+import {BarcodeScannerService} from './barcode-scanner.service';
 import {QuaggaJSConfigObject} from 'quagga';
 import {Utils} from '../utils';
 
 @Component({
   // tslint:disable-next-line:component-selector
-  selector: 'ngx-barcode-scanner',
+  selector: 'barcode-scanner',
   templateUrl: './barcode-scanner.component.html',
   styleUrls: ['./barcode-scanner.component.css']
 })
-export class NgxBarcodeScannerComponent implements OnInit, OnDestroy {
+export class BarcodeScannerComponent implements OnInit, OnDestroy {
   @Input() codes: string | string[] = [
     'code_128', 'ean', 'ean_8', 'code_39', 'code_39_vin',
     'codabar', 'upc', 'upc_e', 'i2of5', '2of5', 'code_93'];
@@ -20,7 +20,7 @@ export class NgxBarcodeScannerComponent implements OnInit, OnDestroy {
   @Output() exception = new EventEmitter();
 
   constructor(
-    private service: NgxBarcodeScannerService
+    private service: BarcodeScannerService
   ) {
   }
 

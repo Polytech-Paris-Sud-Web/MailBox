@@ -5,7 +5,7 @@ import {Observable, Subject} from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class NgxBarcodeScannerService {
+export class BarcodeScannerService {
   private scanResult: Subject<string>;
 
   constructor() {
