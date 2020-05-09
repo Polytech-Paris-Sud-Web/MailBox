@@ -91,7 +91,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 jsbarcode
 MIT
 
-ngx-barcode6
+ngx-barcode
 MIT
 
 quagga
