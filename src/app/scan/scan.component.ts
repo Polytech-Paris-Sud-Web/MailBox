@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { ArticleService } from '../article.service';
+import { FormGroup, FormBuilder, Validators } from '@angular/forms';
+import {Article} from '../article/article.class';
+
 
 @Component({
   selector: 'app-scan',
@@ -7,17 +11,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ScanComponent implements OnInit {
 
-  constructor() { }
+  @Output('articleCreated')
+  createArticle: EventEmitter<Article> = new EventEmitter<Article>();
+
+  constructor(
+    private articleService: ArticleService,
+    private fb: FormBuilder) {
+    this.articleForm = this.fb.group({
+    title: ['Fake Title', Validators.required ],
+    content : ['', Validators.required ],
+    authors : ['', Validators.required ],
+  });
+  }
+
+  articleForm: FormGroup;
+  value: string;
+  isError = false;
 
   ngOnInit(): void {
   }
-  value: string;
-  isError = false;
 
   onError(error) {
     console.error(error);
     this.isError = true;
   }
 
-
+  create() {
+    this.articleService.addArticle(this.articleForm.value).subscribe(
+      (value) => this.createArticle.emit(value),
+      (error) => console.error('error while creating article', error)
+    );
+  }
 }
+
