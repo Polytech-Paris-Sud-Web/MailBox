@@ -14,6 +14,7 @@ import { ListArticleComponent } from './list-article/list-article.component';
 
 import {BarcodeScannerModule} from './barcode-scanner/barcode-scanner.module';
 import { NgxBarcodeModule } from 'ngx-barcode';
+import { BarcodeGeneratorComponent } from './barcode-generator/barcode-generator.component';
 
 
 
@@ -21,8 +22,7 @@ const appRoutes: Routes = [
   { path: 'list-article', component: ListArticleComponent },
   { path: 'article', component: ArticleComponent },
   { path: 'scan', component: ScanComponent },
-  { path: '', component: ListArticleComponent },
-  { path: 'articles/:id', component: ArticleComponent }
+
 ]
 
 @NgModule({
@@ -30,7 +30,8 @@ const appRoutes: Routes = [
     AppComponent,
     ScanComponent,
     ArticleComponent,
-    ListArticleComponent
+    ListArticleComponent,
+    BarcodeGeneratorComponent
   ],
   imports: [
     BrowserModule,
