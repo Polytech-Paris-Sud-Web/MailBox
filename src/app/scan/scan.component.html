@@ -1,21 +1,71 @@
-    <h1>Barcode Scanner</h1>
-    <h3>Passer votre article dans la caméra ci-dessous</h3>
+<style>
+  h3 {
+    color: dimgrey;
+    text-decoration: none;
+    font-variant: normal;
+    margin-left: 40px;
+    font-size:25px;
+  }
+  h2{
+    color: darkorange;
+    text-decoration: none;
+    font-variant: normal;
+    margin-left: 40px;
+    font-size:20px;
+  }
+  div {
+    margin-top: 5px;
+    background-color: #F5F5F5;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+  .center-block{
+    margin-bottom: 5px;
+  }
 
-    <form [formGroup]="articleForm" (ngSubmit)="create()">
-        <div class="form-group">
+  .button{
+    background-color: darkorange;
+    border-radius: 4px;
+    color: white;
+    padding: 12px 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    position: center;
+  }
 
-         
-            <h2>Code barre détecté: <small style="color: blue" class="form-control">{{value}}</small> </h2>
-            <label class="center-block">Code:
-                <input class="form-control" formControlName="Code">
-              </label>
-            
-            <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
-            <barcode-scanner [(value)]="value"
-                         [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1" (exception)="onError($event)"></barcode-scanner>
-            <ngx-barcode [bc-value]="value" [bc-display-value]="true"></ngx-barcode>
-            <button class="btn btn-success" type="submit">Enregistrer l'article</button>
+  button:active {
+    background-color: darkorange;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
-        </div>
-    </form>
 
+  button:hover {
+    background-color: white;
+    color: darkorange;
+  }
+
+</style>
+<div>
+  <h3>Passer le code-barre devant la caméra ci-dessous</h3>
+
+  <form [formGroup]="articleForm" (ngSubmit)="create()">
+    <div class="form-group">
+      <h2>Code barre détecté :
+        <small style="color: blue" class="form-control">{{value}}</small>
+      </h2>
+      <label class="center-block">Code:
+        <input class="form-control" formControlName="Code">
+      </label>
+      <button class="button" type="submit">Enregistrer l'article</button>
+      <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
+      <barcode-scanner [(value)]="value"
+                       [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1"
+                       (exception)="onError($event)"></barcode-scanner>
+      <ngx-barcode [bc-value]="value" [bc-display-value]="true"></ngx-barcode>
+
+    </div>
+</form>
+</div>
