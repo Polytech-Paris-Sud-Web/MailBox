@@ -33,5 +33,6 @@
 
 <div class="article_container" *ngIf="this.article">
     <h3><a [routerLink]="['/articles',this.article.id]">{{this.Code}}</a></h3>
+    <h4><a [routerLink]="['/articles',this.article.id]">{{this.productName}}</a></h4>
     <button (click)="this.delete()"> Supprimer </button>
 </div>

@@ -27,6 +27,9 @@ export class ArticleComponent implements OnInit {
   get Code(): string {
     return this.article.Code;
   }
+  get productName(): string {
+    return this.article.product_name;
+  }
 
   ngOnInit(): void {
     this.route.params.subscribe((params) => {
