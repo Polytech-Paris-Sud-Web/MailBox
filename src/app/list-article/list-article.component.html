@@ -1,16 +1,20 @@
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
- input{
-  margin-top: 10px;
- }
+  input {
+    margin-left: 1000px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    size:200px;
+  }
+
 </style>
 
 <div>
-    <input placeholder="Filtre" #search value=""/>
-    <button  type="submit" id="sb"><i class="fa fa-search" (click)="filterArticle(search.value)"> search</i></button>
+  <input placeholder="Filtre" #search value=""/>
+  <button type="submit" id="sb"><i class="buttonSearch" (click)="filterArticle(search.value)"> search</i></button>
 </div>
 
-  <app-article *ngFor="let article of this.articles" [article]="article" (askForDelete)="removeArticle($event.id)"></app-article>
-  
+<app-article *ngFor="let article of this.articles" [article]="article"
+             (askForDelete)="removeArticle($event.id)"></app-article>
+
