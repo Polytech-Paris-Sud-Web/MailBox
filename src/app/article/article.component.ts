@@ -27,8 +27,17 @@ export class ArticleComponent implements OnInit {
   get Code(): string {
     return this.article.Code;
   }
+
   get productName(): string {
     return this.article.product_name;
+  }
+
+  get productNutriscore(): string {
+    return this.article.nutriscore_grade;
+  }
+
+  get productCountry(): string {
+    return this.article.countries;
   }
 
   ngOnInit(): void {

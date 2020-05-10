@@ -1,38 +1,82 @@
-
 <style>
 
-    button {
-      background-color: #f44336; /* Red */
-      border-radius: 8px;
-      color: white;
-      padding: 12px 14px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 16px;
-    }
-    
-    button:active {
-      background-color: #f44336;
-      box-shadow: 0 5px #666;
-      transform: translateY(4px);
-    }
+  button {
+    background-color: #f44336; /* Red */
+    border-radius: 4px;
+    color: white;
+    padding: 12px 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    float: right;
+    position: center;
+  }
 
-    
-    button:hover{
-          background-color: white;
-          color:#f44336 ;
-    }
+  button:active {
+    background-color: #f44336;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
-    div{
-          margin-top: 10px;
-          background-color: #DDDD;
-    }
+
+  button:hover {
+    background-color: white;
+    color: #f44336;
+  }
+
+  div {
+    margin-top: 5px;
+    background-color: #F5F5F5;
+    margin-right: 2%;
+    margin-left: 2%;
+    box-shadow: 2px 2px 1px #444;
+  }
+
+  h3 {
+    color: black;
+    font-size:14px;
+  }
+
+  h4 {
+    color: green;
+    font-size:14px;
+  }
+
+  .codeArticle {
+    font-size: 14px;
+    color: gray;
+    font-weight: bold;
+  }
+
+  p {
+    font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+  }
+
+  tr {
+    width: 60%;
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    size: 40px;
+  }
+
+  td {
+    padding: 20px;
+    size: 40px;
+  }
+
 
 </style>
-
-<div class="article_container" *ngIf="this.article">
-    <h3><a [routerLink]="['/articles',this.article.id]">{{this.Code}}</a></h3>
-    <h4><a [routerLink]="['/articles',this.article.id]">{{this.productName}}</a></h4>
-    <button (click)="this.delete()"> Supprimer </button>
+<div>
+  <button (click)="this.delete()"> Supprimer</button>
+  <table>
+    <tr>
+      <td><p><a class="codeArticle" [routerLink]="['/articles',this.article.id]">{{this.Code}}</a></p></td>
+      <td><p>{{this.productName}}</p></td>
+      <td><h4>Nutriscore  {{this.productNutriscore}}</h4></td>
+      <td><h3>{{this.productCountry}}</h3></td>
+    </tr>
+  </table>
 </div>

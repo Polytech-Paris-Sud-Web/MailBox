@@ -1,74 +1,11 @@
 {
   "list-article": [
     {
-      "Code": "2222",
-      "id": 4,
-      "product_name": "test4",
-      "countries": "1,2,3 viva Algérie",
-      "nutriscore_grade": "B"
-    },
-    {
-      "Code": "",
-      "id": 5,
-      "product_name": "test5",
-      "countries": "France",
-      "nutriscore_grade": "B"
-    },
-    {
-      "Code": "12535980",
-      "id": 6,
-      "product_name": "test6",
-      "countries": "Angleterre",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "12535980",
-      "id": 7,
-      "product_name": "test7",
-      "countries": "Bresil",
-      "nutriscore_grade": "C"
-    },
-    {
-      "Code": "12535980",
-      "id": 8,
-      "product_name": "test8",
-      "countries": "Allemagne",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "12535980",
-      "id": 9,
-      "product_name": "test9",
-      "countries": "Allemagne",
-      "nutriscore_grade": null
-    },
-    {
       "Code": "0000000000017",
       "id": 10,
       "product_name": "Vitória crackers",
       "countries": "France",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "0000000000031",
-      "id": 11,
-      "product_name": "Cacao",
-      "countries": "France",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "000000000003327986",
-      "id": 12,
-      "product_name": "Filetes de pollo empanado",
-      "countries": "Espagne",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "0000000000100",
-      "id": 13,
-      "product_name": " moutarde au moût de raisin ",
-      "countries": "France",
-      "nutriscore_grade": "D"
+      "nutriscore_grade": "B"
     },
     {
       "Code": "0000000000123",
@@ -97,6 +34,55 @@
       "product_name": "Peanuts",
       "countries": "United States",
       "nutriscore_grade": null
+    },
+    {
+      "Code": "0000000000031",
+      "id": 11,
+      "product_name": "Cacao",
+      "countries": "France",
+      "nutriscore_grade": null
+    },
+    {
+      "Code": "0000003327986",
+      "id": 12,
+      "product_name": "Filetes de pollo empanado",
+      "countries": "Espagne",
+      "nutriscore_grade": null
+    },
+    {
+      "Code": "0000000000100",
+      "id": 13,
+      "product_name": " moutarde au moût de raisin ",
+      "countries": "France",
+      "nutriscore_grade": "D"
+    },
+    {
+      "Code": "0000000000123",
+      "id": 14,
+      "product_name": "Sauce Sweety chili 0%",
+      "countries": "France",
+      "nutriscore_grade": null
+    },
+    {
+      "Code": "0000000000178",
+      "id": 15,
+      "product_name": "Mini coco",
+      "countries": "France",
+      "nutriscore_grade": "B"
+    },
+    {
+      "Code": "0000000000208",
+      "id": 16,
+      "product_name": "Pistou d'ail des ours",
+      "countries": "France",
+      "nutriscore_grade": "B"
+    },
+    {
+      "Code": "0000000004559",
+      "id": 17,
+      "product_name": "Peanuts",
+      "countries": "United States",
+      "nutriscore_grade": "C"
     }
   ]
 }
