@@ -21,7 +21,8 @@ const appRoutes: Routes = [
   { path: 'list-article', component: ListArticleComponent },
   { path: 'article', component: ArticleComponent },
   { path: 'scan', component: ScanComponent },
-  { path: '', component: ListArticleComponent }
+  { path: '', component: ListArticleComponent },
+  { path: 'articles/:id', component: ArticleComponent }
 ]
 
 @NgModule({

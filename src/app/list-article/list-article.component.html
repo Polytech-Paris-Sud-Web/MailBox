@@ -1,9 +1,16 @@
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+ input{
+  margin-top: 10px;
+ }
+</style>
+
 <div>
-    <input placeholder="filter" #search value=""/>
-    <button (click)="filterArticle(search.value)">🔍 search</button>
-    <button (click)="filterArticle('');search.value=''">🗑️ remove filter</button>
-  </div>
+    <input placeholder="Filtre" #search value=""/>
+    <button  type="submit" id="sb"><i class="fa fa-search" (click)="filterArticle(search.value)"> search</i></button>
+</div>
 
   <app-article *ngFor="let article of this.articles" [article]="article" (askForDelete)="removeArticle($event.id)"></app-article>
   

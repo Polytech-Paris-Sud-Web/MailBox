@@ -18,9 +18,7 @@ export class ScanComponent implements OnInit {
     private articleService: ArticleService,
     private fb: FormBuilder) {
     this.articleForm = this.fb.group({
-    title: ['Fake Title', Validators.required ],
-    content : ['', Validators.required ],
-    authors : ['', Validators.required ],
+    Code: ['', Validators.required ],
   });
   }
 

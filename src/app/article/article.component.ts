@@ -45,7 +45,7 @@ export class ArticleComponent implements OnInit {
     this.articleService.deleteArticle(id).subscribe(
       () =>　{
         this.deleteArticle.emit(this.article);
-        this.router.navigate(['/articles']);
+        this.router.navigate(['/list-article']);
       },
       (error) => console.error('cannot delete article: ',id, error)
     );
