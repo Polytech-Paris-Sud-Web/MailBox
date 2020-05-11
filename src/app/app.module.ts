@@ -23,7 +23,7 @@ const appRoutes: Routes = [
   { path: 'article', component: ArticleComponent },
   { path: 'scan', component: ScanComponent },
   { path: '', component: ListArticleComponent },
-  { path: 'articles/:id', component: ArticleComponent }
+  { path: 'list-article/:id', component: ArticleComponent }
 
 ]
 
