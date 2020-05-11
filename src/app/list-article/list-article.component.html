@@ -11,8 +11,12 @@
 </style>
 
 <div>
-  <input label="recherche"placeholder="Filtre" #search value=""/>
-  <button type="submit" id="sb"><i class="buttonSearch" (click)="filterArticle(search.value)"> search</i></button>
+  <label>
+      
+      <input label="recherche" placeholder="Filtre" #search value=""/>
+      <button type="submit" id="sb"><i class="buttonSearch" (click)="filterArticle(search.value)"> search</i></button>
+  </label>
+  
 </div>
 
 <app-article *ngFor="let article of this.articles" [article]="article"
