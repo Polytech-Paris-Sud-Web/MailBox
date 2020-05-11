@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589198425728,
+  "timestamp": 1589198525416,
   "index": "/ScanTool/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/ScanTool/favicon.ico",
         "/ScanTool/index.html",
-        "/ScanTool/main-es2015.c95e7e359293aad0270e.js",
-        "/ScanTool/main-es5.c95e7e359293aad0270e.js",
+        "/ScanTool/main-es2015.dffc26bb9f7ddd01fb08.js",
+        "/ScanTool/main-es5.dffc26bb9f7ddd01fb08.js",
         "/ScanTool/manifest.webmanifest",
         "/ScanTool/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/ScanTool/polyfills-es5.9e286f6d9247438cbb02.js",
@@ -77,9 +77,9 @@
     "/ScanTool/assets/images/icons/image512x512.png": "854dc620705efb5462a7ea7d1f1da56eb2c306ef",
     "/ScanTool/assets/images/icons/pwa-512x512.png": "82de61a15009d6a27899decdd21b65580eefc8d1",
     "/ScanTool/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/ScanTool/index.html": "f9a8efe07aa22df7fb7a7d6d291d369c026e5095",
-    "/ScanTool/main-es2015.c95e7e359293aad0270e.js": "61009fbf1db46d28a98df9359e94607d337011eb",
-    "/ScanTool/main-es5.c95e7e359293aad0270e.js": "c987864674a04dd31e541fb096de5ac122056c03",
+    "/ScanTool/index.html": "93105dbe9c2b3b4b887f6f35d517fb48347af8ac",
+    "/ScanTool/main-es2015.dffc26bb9f7ddd01fb08.js": "cf1ed46b78db6a4fd2b0244c60e76808e97a2153",
+    "/ScanTool/main-es5.dffc26bb9f7ddd01fb08.js": "b7b66fb25208728aa3971575d9d16d78f24136a3",
     "/ScanTool/manifest.webmanifest": "3ea10ab95eee225e0c6976d27f16e78ee93df409",
     "/ScanTool/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/ScanTool/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
