@@ -11,8 +11,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - run : npm i quagga
-    - run : npm install -g json-server
-    - run : json-server --watch db.json
     - name: Angular Deploy gh-pages Actions
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.2.0
       with:
