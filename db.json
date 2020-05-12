@@ -48,62 +48,6 @@
       "product_name": " moutarde au moût de raisin ",
       "countries": "France",
       "nutriscore_grade": "D"
-    },
-    {
-      "Code": "0000000000123",
-      "id": 14,
-      "product_name": "Sauce Sweety chili 0%",
-      "countries": "France",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "0000000000178",
-      "id": 15,
-      "product_name": "Mini coco",
-      "countries": "France",
-      "nutriscore_grade": "B"
-    },
-    {
-      "Code": "0000000000208",
-      "id": 16,
-      "product_name": "Pistou d'ail des ours",
-      "countries": "France",
-      "nutriscore_grade": "B"
-    },
-    {
-      "Code": "0000000004559",
-      "id": 17,
-      "product_name": "Peanuts",
-      "countries": "United States",
-      "nutriscore_grade": "C"
-    },
-    {
-      "Code": "",
-      "id": 18
-    },
-    {
-      "Code": "",
-      "id": 19
-    },
-    {
-      "Code": "",
-      "id": 20
-    },
-    {
-      "Code": "",
-      "id": 21
-    },
-    {
-      "Code": "",
-      "id": 22
-    },
-    {
-      "Code": "0125487360",
-      "id": 23
-    },
-    {
-      "Code": "0125487360",
-      "id": 24
     }
   ]
 }
