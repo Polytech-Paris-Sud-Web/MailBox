@@ -91,9 +91,6 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 jsbarcode
 MIT
 
-ngx-barcode
-MIT
-
 quagga
 MIT
 The MIT License (MIT)
