@@ -54,9 +54,6 @@ export class BarcodeScannerService {
       }
     });
 
-function sanityCheck(s) {
-      return s.toUpperCase().match(/^[0-9A-Z\s\-\.\/]+$/);
-}
 
     Quagga.init(config, (error) => {
       if (error) {

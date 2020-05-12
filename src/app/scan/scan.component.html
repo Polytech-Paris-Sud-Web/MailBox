@@ -59,12 +59,13 @@
       <label class="center-block">Code:
         <input class="form-control" formControlName="Code">
       </label>
-      <button class="button" type="submit">Enregistrer l'article</button>
+      
       <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
       <barcode-scanner [(value)]="value"
                        [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1"
                        (exception)="onError($event)"></barcode-scanner>
-      <ngx-barcode [bc-value]="value" [bc-display-value]="true"></ngx-barcode>
+      <app-barcode-generator [bc-value]="value" [bc-display-value]="true"></app-barcode-generator>
+      <button class="button" type="submit">Enregistrer l'article</button>
 
     </div>
 </form>
