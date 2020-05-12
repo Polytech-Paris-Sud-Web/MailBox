@@ -67,7 +67,7 @@
   <button (click)="this.delete()"> Supprimer</button>
   <table>
     <tr *ngIf="article">
-      <td><p><a class="codeArticle" [routerLink]="['/list-article',this.article.id]">{{this.Code}}</a></p></td>
+      <td><p><a class="codeArticle" [routerLink]="['/articles',this.article.id]">{{this.Code}}</a></p></td>
       <td><p>{{this.productName}}</p></td>
       <td><h4>Nutriscore  {{this.productNutriscore}}</h4></td>
       <td><h3>{{this.productCountry}}</h3></td>
