@@ -1,53 +1,4 @@
-<style>
-  h3 {
-    color: dimgrey;
-    text-decoration: none;
-    font-variant: normal;
-    margin-left: 40px;
-    font-size:25px;
-  }
-  h2{
-    color: darkorange;
-    text-decoration: none;
-    font-variant: normal;
-    margin-left: 40px;
-    font-size:20px;
-  }
-  div {
-    margin-top: 5px;
-    background-color: #F5F5F5;
-    margin-right: 2%;
-    margin-left: 2%;
-  }
-  .center-block{
-    margin-bottom: 5px;
-  }
 
-  .button{
-    background-color: darkorange;
-    border-radius: 4px;
-    color: white;
-    padding: 12px 14px;
-    text-align: center;
-    display: inline-block;
-    font-size: 14px;
-    float: right;
-    position: center;
-  }
-
-  button:active {
-    background-color: darkorange;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-  }
-
-
-  button:hover {
-    background-color: white;
-    color: darkorange;
-  }
-
-</style>
 <div>
   <h3>Passer le code-barre devant la caméra ci-dessous</h3>
 
@@ -63,10 +14,9 @@
       <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
       <barcode-scanner [(value)]="value"
                        [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1"
-                       (exception)="onError($event)"></barcode-scanner>
+                       (exception)="onError($event)"></barcode-scanner>           
       <app-barcode-generator [bc-value]="value" [bc-display-value]="true"></app-barcode-generator>
       <button class="button" type="submit">Enregistrer l'article</button>
-
     </div>
 </form>
 </div>

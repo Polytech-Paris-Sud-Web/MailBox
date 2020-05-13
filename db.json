@@ -45,9 +45,13 @@
     {
       "Code": "0000000000100",
       "id": 13,
-      "product_name": " moutarde au moût de raisin ",
+      "product_name": " moutarde au goût de raisin ",
       "countries": "France",
       "nutriscore_grade": "D"
+    },
+    {
+      "Code": "",
+      "id": 18
     }
   ]
 }

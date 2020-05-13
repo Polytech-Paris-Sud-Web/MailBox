@@ -3,7 +3,6 @@ import { ArticleService } from '../article.service';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
 import {Article} from '../article/article.class';
 
-
 @Component({
   selector: 'app-scan',
   templateUrl: './scan.component.html',
@@ -40,5 +39,7 @@ export class ScanComponent implements OnInit {
       (error) => console.error('error while creating article', error)
     );
   }
+
+  
 }
 

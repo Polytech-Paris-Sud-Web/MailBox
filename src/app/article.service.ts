@@ -3,6 +3,7 @@ import { Article } from './article/article.class';
 import {HttpClient} from "@angular/common/http";
 import { Observable, forkJoin } from 'rxjs';
 
+
 @Injectable()
 export class ArticleService {
 
@@ -27,5 +28,11 @@ export class ArticleService {
   public filterArticle(filter: string): Observable<Article[]> {
     return this.http.get<Article[]>(`http://localhost:3000/list-article?q=${filter}`);
   }
-
+ 
+  public getData(){
+    return this.http.get('https://world.openfoodfacts.org/api/v0/product${CODE}.json')
+    .subscribe(data => {
+      console.log("We got",data)
+    })
+  }
 }

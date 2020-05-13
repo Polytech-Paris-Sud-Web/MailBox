@@ -22,4 +22,6 @@ describe('ScanComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  
 });

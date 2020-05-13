@@ -17,6 +17,7 @@ export class ArticleComponent implements OnInit {
   deleteArticle: EventEmitter<Article> = new EventEmitter<Article>();
 
   articles: Article[] = []
+  records={}
 
   constructor(
     private router: Router,
@@ -40,7 +41,7 @@ export class ArticleComponent implements OnInit {
     return this.article.countries;
   }
 
-  ngOnInit(): void {
+  ngOnInit(){
     this.route.params.subscribe((params) => {
       if ("id" in params) {
         const id = params.id;
@@ -50,6 +51,7 @@ export class ArticleComponent implements OnInit {
         )
       }
     })
+    this.records = this.articleService.getData()
   }
   
   delete(): void {
