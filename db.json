@@ -48,6 +48,20 @@
       "product_name": " moutarde au moût de raisin ",
       "countries": "France",
       "nutriscore_grade": "D"
+    },
+    {
+      "Code": "07270178",
+      "product_name": "Haricot vert",
+      "countries": "France",
+      "nutriscore_grade": "B",
+      "id": 18
+    },
+    {
+      "Code": "3256224060963z",
+      "product_name": "",
+      "countries": "",
+      "nutriscore_grade": "",
+      "id": 20
     }
   ]
 }

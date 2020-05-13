@@ -18,7 +18,10 @@ export class ScanComponent implements OnInit {
     private articleService: ArticleService,
     private fb: FormBuilder) {
     this.articleForm = this.fb.group({
-    Code: ['', Validators.required ],
+    Code: ['', Validators.nullValidator ],
+    product_name: ['', Validators.required],
+    countries:['', Validators.required],
+    nutriscore_grade:['',Validators.required],
   });
   }
 
@@ -40,5 +43,6 @@ export class ScanComponent implements OnInit {
       (error) => console.error('error while creating article', error)
     );
   }
+
 }
 
