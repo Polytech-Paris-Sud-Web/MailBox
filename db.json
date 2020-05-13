@@ -1,4 +1,3 @@
-
 {
   "list-article": [
     {
@@ -57,6 +56,27 @@
     {
       "Code": "",
       "id": 19
+    },
+    {
+      "Code": "",
+      "product_name": "",
+      "countries": "",
+      "nutriscore_grade": "",
+      "id": 20
+    },
+    {
+      "Code": "",
+      "product_name": "",
+      "countries": "",
+      "nutriscore_grade": "",
+      "id": 21
+    },
+    {
+      "Code": "",
+      "product_name": "",
+      "countries": "",
+      "nutriscore_grade": "",
+      "id": 22
     }
   ]
 }

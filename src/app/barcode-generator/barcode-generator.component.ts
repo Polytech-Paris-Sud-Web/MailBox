@@ -1,4 +1,5 @@
 import { Component, Input, OnChanges, ViewChild, Renderer2, ElementRef } from '@angular/core';
+import saveSvgAsPng from 'save-svg-as-png';
 
 declare var require: any;
 let jsbarcode = require('jsbarcode');
@@ -86,8 +87,7 @@ export class BarcodeGeneratorComponent implements OnChanges {
     }
     this.renderer.appendChild(this.bcElement.nativeElement, element);
 
+    saveSvgAsPng(document.getElementById("barcode"), "barcode.png");
   }
-
-
 
 }
