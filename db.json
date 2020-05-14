@@ -1,95 +1,6 @@
 {
   "list-article": [
     {
-      "Code": "3027030038381 ",
-      "product_name": "Mon Fondant au chocolat ",
-      "brands": "Ancel,Dr. Oetker ",
-      "countries": "France ",
-      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs ",
-      "nutriscore_grade": " ",
-      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat ",
-      "stores": "Magasins U ",
-      "id": 46
-    },
-    {
-      "Code": "3027030038381",
-      "product_name": "Mon Fondant au chocolat",
-      "brands": "Ancel,Dr. Oetker",
-      "countries": "France",
-      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
-      "nutriscore_grade": "",
-      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
-      "stores": "Magasins U",
-      "id": 52
-    },
-    {
-      "Code": "3027030038381",
-      "product_name": "Mon Fondant au chocolat",
-      "brands": "Ancel,Dr. Oetker",
-      "countries": "France",
-      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
-      "nutriscore_grade": "",
-      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
-      "stores": "Magasins U",
-      "id": 53
-    },
-    {
-      "Code": "3027030038381",
-      "product_name": "Mon Fondant au chocolat",
-      "brands": "Ancel,Dr. Oetker",
-      "countries": "France",
-      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
-      "nutriscore_grade": "",
-      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
-      "stores": "Magasins U",
-      "id": 54
-    },
-    {
-      "Code": "3041090020315",
-      "product_name": "Blédichef, Mitonné de Carottes et Macaronis au Bœuf",
-      "brands": "Blédina,Blédichef,Danone",
-      "countries": "France",
-      "labels": "Viande Française, Point Vert, Sans conservateurs, Viande Bovine Française, Eco-Emballages\n \n",
-      "nutriscore_grade": "",
-      "categories": "Viandes, Aliments pour bébé, Plats principaux pour bébé, Assiettes pour bébé, Dès 24 mois, Menus Viandes pour bébé",
-      "stores": "Cora, Magasins U",
-      "id": 55
-    },
-    {
-      "Code": "5000171010025",
-      "product_name": "Red Salmon",
-      "brands": "John West",
-      "countries": "France, United Kingdom, en:australia",
-      "labels": "Green Dot",
-      "nutriscore_grade": "b",
-      "categories": "Canned foods, Seafood, Fishes, Canned fishes, Salmons, Canned salmons",
-      "stores": "Waitrose, Woolworths",
-      "id": 56
-    },
-    {
-      "Code": "01268584",
-      "product_name": "Lemon curd",
-      "brands": "Sainsbury's",
-      "countries": "Royaume-Uni",
-      "labels": "",
-      "nutriscore_grade": "d",
-      "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Crèmes de citron",
-      "stores": "Sainsbury's",
-      "id": 57
-    },
-    {
-      "Code": "3017620424403",
-      "product_name": "Nutella",
-      "brands": "Nutella, Ferrero",
-      "countries": "Belgique, France, Suisse",
-      "labels": "Sans colorants, Sans conservateurs",
-      "nutriscore_grade": "e",
-      "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Pâtes à tartiner aux noisettes, Pâtes à tartiner au chocolat, Pâtes à tartiner aux noisettes et au cacao",
-      "stores": "",
-      "image_front_url": "https://static.openfoodfacts.org/images/products/301/762/042/4403/front_en.31.400.jpg",
-      "id": 59
-    },
-    {
       "Code": "3017620424403",
       "product_name": "Nutella",
       "brands": "Nutella, Ferrero",
@@ -100,18 +11,6 @@
       "stores": "",
       "image_front_url": "https://static.openfoodfacts.org/images/products/301/762/042/4403/front_en.31.400.jpg",
       "id": 60
-    },
-    {
-      "Code": "3256224060963",
-      "product_name": "U douceur mouchoir",
-      "brands": "U",
-      "countries": "en:France",
-      "labels": "",
-      "nutriscore_grade": "",
-      "categories": "",
-      "stores": "",
-      "image_front_url": "https://static.openfoodfacts.org/images/products/325/622/406/0963/front_fr.3.400.jpg",
-      "id": 61
     },
     {
       "Code": "3027030038381",
@@ -136,6 +35,42 @@
       "stores": "Sainsbury's",
       "image_front_url": "https://static.openfoodfacts.org/images/products/01268584/front_fr.14.400.jpg",
       "id": 63
+    },
+    {
+      "Code": "3041090020315",
+      "product_name": "Blédichef, Mitonné de Carottes et Macaronis au Bœuf",
+      "brands": "Blédina,Blédichef,Danone",
+      "countries": "France",
+      "labels": "Viande Française, Point Vert, Sans conservateurs, Viande Bovine Française, Eco-Emballages\n \n",
+      "nutriscore_grade": "",
+      "categories": "Viandes, Aliments pour bébé, Plats principaux pour bébé, Assiettes pour bébé, Dès 24 mois, Menus Viandes pour bébé",
+      "stores": "Cora, Magasins U",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/304/109/002/0315/front_fr.4.400.jpg",
+      "id": 64
+    },
+    {
+      "Code": "5000171010025",
+      "product_name": "Red Salmon",
+      "brands": "John West",
+      "countries": "France, United Kingdom, en:australia",
+      "labels": "Green Dot",
+      "nutriscore_grade": "b",
+      "categories": "Canned foods, Seafood, Fishes, Canned fishes, Salmons, Canned salmons",
+      "stores": "Waitrose, Woolworths",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/500/017/101/0025/front_en.7.400.jpg",
+      "id": 65
+    },
+    {
+      "Code": "3174780000431",
+      "product_name": "Coca Cola",
+      "brands": "Coca-Cola",
+      "countries": "Belgique,France,Maroc,Suisse, en:germany",
+      "labels": "",
+      "nutriscore_grade": "e",
+      "categories": "Boissons, Boissons gazeuses, Sodas, Sodas au cola, Boissons avec sucre ajouté",
+      "stores": "Auchan,Leclerc,Carrefour,Cora",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/317/478/000/0431/front_fr.10.400.jpg",
+      "id": 66
     }
   ]
 }

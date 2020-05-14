@@ -24,7 +24,7 @@ button {
   div {
     margin-top: 1%;
     background-color: #F5F5F5;
-    margin-right: 20%;
+    margin-right: 10%;
     margin-left: 10%;
     box-shadow: 2px 2px 1px #444;
   }
@@ -32,6 +32,7 @@ button {
   h3 {
     color: black;
     font-size: 80%;
+
   }
 
   h4 {
@@ -58,4 +59,13 @@ button {
   td {
     width: 5%;
     lenght: 5%;
+  }
+
+  .table{
+    background-color:gainsboro;
+  }
+
+  .imageArticle{
+    height:210px;
+    width: 130px;
   }
