@@ -251,6 +251,18 @@
       "stores": "Banque alimentaire,Magasins U",
       "image_front_url": "https://static.openfoodfacts.org/images/products/301/776/075/6198/front_fr.67.400.jpg",
       "id": 90
+    },
+    {
+      "Code": "3302748270026",
+      "product_name": "Le Coeur Frais Ail et Fines herbes - 24 bâtonnets",
+      "brands": "Fleury Michon",
+      "countries": "France",
+      "labels": "No artificial flavors,de:Ohne Polyphosphate,Natural flavors,No artificial colors,No colorings,No preservatives,Nutriscore,Nutriscore Grade D",
+      "nutriscore_grade": "d",
+      "categories": "Produits de la mer, Poissons, Préparations de poisson, Surimi",
+      "stores": "Auchan,Magasins U",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/330/274/827/0026/front_fr.74.400.jpg",
+      "id": 91
     }
   ]
 }
