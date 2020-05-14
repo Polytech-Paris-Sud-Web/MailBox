@@ -1,41 +1,6 @@
 {
   "list-article": [
     {
-      "Code": "0000000000123",
-      "id": 14,
-      "product_name": "Sauce Sweety chili 0%",
-      "countries": "France",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "0000000000178",
-      "id": 15,
-      "product_name": "Mini coco",
-      "countries": "France",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "0000000000208",
-      "id": 16,
-      "product_name": "Pistou d'ail des ours",
-      "countries": "France",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "0000000004559",
-      "id": 17,
-      "product_name": "Peanuts",
-      "countries": "United States",
-      "nutriscore_grade": null
-    },
-    {
-      "Code": "5901234123456",
-      "product_name": "test",
-      "countries": "test",
-      "nutriscore_grade": "test",
-      "id": 37
-    },
-    {
       "Code": "3027030038381 ",
       "product_name": "Mon Fondant au chocolat ",
       "brands": "Ancel,Dr. Oetker ",
@@ -56,6 +21,61 @@
       "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
       "stores": "Magasins U",
       "id": 52
+    },
+    {
+      "Code": "3027030038381",
+      "product_name": "Mon Fondant au chocolat",
+      "brands": "Ancel,Dr. Oetker",
+      "countries": "France",
+      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
+      "nutriscore_grade": "",
+      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
+      "stores": "Magasins U",
+      "id": 53
+    },
+    {
+      "Code": "3027030038381",
+      "product_name": "Mon Fondant au chocolat",
+      "brands": "Ancel,Dr. Oetker",
+      "countries": "France",
+      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
+      "nutriscore_grade": "",
+      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
+      "stores": "Magasins U",
+      "id": 54
+    },
+    {
+      "Code": "3041090020315",
+      "product_name": "Blédichef, Mitonné de Carottes et Macaronis au Bœuf",
+      "brands": "Blédina,Blédichef,Danone",
+      "countries": "France",
+      "labels": "Viande Française, Point Vert, Sans conservateurs, Viande Bovine Française, Eco-Emballages\n \n",
+      "nutriscore_grade": "",
+      "categories": "Viandes, Aliments pour bébé, Plats principaux pour bébé, Assiettes pour bébé, Dès 24 mois, Menus Viandes pour bébé",
+      "stores": "Cora, Magasins U",
+      "id": 55
+    },
+    {
+      "Code": "5000171010025",
+      "product_name": "Red Salmon",
+      "brands": "John West",
+      "countries": "France, United Kingdom, en:australia",
+      "labels": "Green Dot",
+      "nutriscore_grade": "b",
+      "categories": "Canned foods, Seafood, Fishes, Canned fishes, Salmons, Canned salmons",
+      "stores": "Waitrose, Woolworths",
+      "id": 56
+    },
+    {
+      "Code": "01268584",
+      "product_name": "Lemon curd",
+      "brands": "Sainsbury's",
+      "countries": "Royaume-Uni",
+      "labels": "",
+      "nutriscore_grade": "d",
+      "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Crèmes de citron",
+      "stores": "Sainsbury's",
+      "id": 57
     }
   ]
 }
