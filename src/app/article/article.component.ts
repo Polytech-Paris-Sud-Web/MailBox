@@ -41,6 +41,25 @@ export class ArticleComponent implements OnInit {
     return this.article.countries;
   }
 
+  get productBrands(): string {
+    return this.article.brands;
+  }
+
+  get productLabels(): string {
+    return this.article.labels;
+  }
+
+  get productCategories(): string {
+    return this.article.categories;
+  }
+
+  get productStores(): string {
+    return this.article.stores;
+  }
+
+  get productImage(): String {
+    return this.article.image_front_url;
+  }
 
   ngOnInit(){
     this.route.params.subscribe((params) => {
