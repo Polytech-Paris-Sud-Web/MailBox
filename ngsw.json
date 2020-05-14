@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589431806792,
+  "timestamp": 1589442786188,
   "index": "/ScanTool/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/ScanTool/favicon.ico",
         "/ScanTool/index.html",
-        "/ScanTool/main-es2015.de738cde48fb839f226e.js",
-        "/ScanTool/main-es5.de738cde48fb839f226e.js",
+        "/ScanTool/main-es2015.4375b82ec494d3adcd47.js",
+        "/ScanTool/main-es5.4375b82ec494d3adcd47.js",
         "/ScanTool/manifest.webmanifest",
         "/ScanTool/polyfills-es2015.690002c25ea8557bb4b0.js",
         "/ScanTool/polyfills-es5.9e286f6d9247438cbb02.js",
@@ -48,7 +48,8 @@
         "/ScanTool/assets/images/icons/icon-96x96.png",
         "/ScanTool/assets/images/icons/image512x512.png",
         "/ScanTool/assets/images/icons/pwa-512x512.png",
-        "/ScanTool/assets/images/icons/scanner.jpg"
+        "/ScanTool/assets/images/icons/scanner.jpg",
+        "/ScanTool/assets/images/icons/téléchargement.png"
       ],
       "patterns": []
     }
@@ -78,10 +79,11 @@
     "/ScanTool/assets/images/icons/image512x512.png": "854dc620705efb5462a7ea7d1f1da56eb2c306ef",
     "/ScanTool/assets/images/icons/pwa-512x512.png": "82de61a15009d6a27899decdd21b65580eefc8d1",
     "/ScanTool/assets/images/icons/scanner.jpg": "e2fbf7f0d44a8da15a7e76f6ed84f7d951c5585d",
+    "/ScanTool/assets/images/icons/téléchargement.png": "12fed43c2f94a4d3bea0bf33b77d3141f7cd5b83",
     "/ScanTool/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/ScanTool/index.html": "1789074694c8c5a7b61f6980c53e483e43c1c5cf",
-    "/ScanTool/main-es2015.de738cde48fb839f226e.js": "3e191506ccedb6682834401e42966fb9be5e4962",
-    "/ScanTool/main-es5.de738cde48fb839f226e.js": "eec5d041252b5156885d89031a901ce2cda8042d",
+    "/ScanTool/index.html": "1109863d7ad7b813b1a0095cacb1dd4695de7762",
+    "/ScanTool/main-es2015.4375b82ec494d3adcd47.js": "b6b02517cae18b971aae66869bc64e854161d8f4",
+    "/ScanTool/main-es5.4375b82ec494d3adcd47.js": "1b5531482baa293527fd844840a050f377839db8",
     "/ScanTool/manifest.webmanifest": "3ea10ab95eee225e0c6976d27f16e78ee93df409",
     "/ScanTool/polyfills-es2015.690002c25ea8557bb4b0.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/ScanTool/polyfills-es5.9e286f6d9247438cbb02.js": "89222a28dbabb780fc372d33834080e0cd3083d9",
