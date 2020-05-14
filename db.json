@@ -29,40 +29,11 @@
       "nutriscore_grade": null
     },
     {
-      "Code": "5901234123457   ",
-      "product_name": "test",
-      "countries": "test",
-      "nutriscore_grade": "test",
-      "id": 31
-    },
-    {
-      "Code": "5901234123457          ",
-      "product_name": "test",
-      "countries": "test",
-      "nutriscore_grade": "test",
-      "id": 34
-    },
-    {
-      "Code": "5901234123457   ",
-      "product_name": "houria",
-      "countries": "test",
-      "nutriscore_grade": "test",
-      "id": 35
-    },
-    {
       "Code": "5901234123456",
       "product_name": "test",
       "countries": "test",
       "nutriscore_grade": "test",
       "id": 37
-    },
-    {
-      "Code": "3027030038381 ",
-      "product_name": "Mon Fondant au chocolat ",
-      "brands": "Ancel,Dr. Oetker ",
-      "countries": "France ",
-      "nutriscore_grade": " ",
-      "id": 41
     },
     {
       "Code": "3027030038381 ",
@@ -76,15 +47,15 @@
       "id": 46
     },
     {
-      "Code": "3027030038381 ",
-      "product_name": "Mon Fondant au chocolat ",
-      "brands": "Ancel,Dr. Oetker ",
-      "countries": "France ",
-      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs ",
-      "nutriscore_grade": " ",
-      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat ",
-      "stores": "Magasins U ",
-      "id": 47
+      "Code": "3027030038381",
+      "product_name": "Mon Fondant au chocolat",
+      "brands": "Ancel,Dr. Oetker",
+      "countries": "France",
+      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
+      "nutriscore_grade": "",
+      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
+      "stores": "Magasins U",
+      "id": 52
     }
   ]
 }

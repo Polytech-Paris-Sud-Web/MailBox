@@ -63,41 +63,65 @@ export class ScanComponent implements OnInit {
     this.articleService.getData(codebar).subscribe(
       (result: any) => {
         console.log('result:', result);
-      //   this.articleForm.patchValue({
-      //     Code: codebar
-      //  });
+        this.articleForm.patchValue({
+          Code: codebar
+        });
         if (result.product.product_name) {
-          this.product_name = result.product.product_name; // update formbuilder product name info
-        //   this.articleForm.patchValue({
-        //     product_name: result.product.product_name
-        //  });
+          //this.product_name = result.product.product_name;
+           this.articleForm.patchValue({
+            product_name: result.product.product_name
+         });
         }
         else if (result.product.product_name_fr){
-          this.product_name = result.product.product_name_fr;
+         // this.product_name = result.product.product_name_fr;
+         this.articleForm.patchValue({
+          product_name: result.product.product_name_fr
+       });
         }
         else if (result.product.product_name_en){
-          this.product_name = result.product.product_name_en;
+      //    this.product_name = result.product.product_name_en;
+        this.articleForm.patchValue({
+        product_name: result.product.product_name_en
+         });
         }
         if (result.product.brands) {
-          this.brands = result.product.brands;
+        //  this.brands = result.product.brands;
+        this.articleForm.patchValue({
+          brands: result.product.brands
+           });
         }
         if (result.product.categories) {
-          this.categories = result.product.categories;
+       //   this.categories = result.product.categories;
+         this.articleForm.patchValue({
+          categories: result.product.categories
+         });
         }
         if (result.product.stores) {
-          this.stores = result.product.stores;
+        //   this.stores = result.product.stores;
+          this.articleForm.patchValue({
+            stores: result.product.stores
+          });
         }
         if (result.product.countries) {
-          this.countries = result.product.countries; // update formbuilder product country info
+    //      this.countries = result.product.countries;
+          this.articleForm.patchValue({
+            countries: result.product.countries
+          });
         }
         if (result.product.image_front_url) {
-          this.image_front_url = result.product.image_front_url; // update formbuilder product image info
+            this.image_front_url = result.product.image_front_url;
         }
         if (result.product.labels) {
-          this.labels = result.product.labels;
+       //   this.labels = result.product.labels;
+          this.articleForm.patchValue({
+            labels: result.product.labels
+          });
         }
         if (result.product.nutriscore_grade) {
-          this.nutriscore_grade = result.product.nutriscore_grade; // update formbuilder product nutriscore grade info
+        //  this.nutriscore_grade = result.product.nutriscore_grade; 
+            this.articleForm.patchValue({
+              nutriscore_grade: result.product.nutriscore_grade
+            });
         }
       }, (err) => {
         console.log(err);
