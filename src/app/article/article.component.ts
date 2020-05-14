@@ -57,6 +57,8 @@ export class ArticleComponent implements OnInit {
     return this.article.stores;
   }
 
+
+
   get productImage(): HTMLImageElement {
     return this.article.image_front_url;
   }
