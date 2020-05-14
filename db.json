@@ -71,6 +71,18 @@
       "stores": "Auchan,Leclerc,Carrefour,Cora",
       "image_front_url": "https://static.openfoodfacts.org/images/products/317/478/000/0431/front_fr.10.400.jpg",
       "id": 66
+    },
+    {
+      "Code": "3222476078490",
+      "product_name": "Mousse au chocolat au lait",
+      "brands": "Casino",
+      "countries": "France",
+      "labels": "",
+      "nutriscore_grade": "c",
+      "categories": "Desserts, Desserts au chocolat, Mousses au chocolat",
+      "stores": "Casino",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/322/247/607/8490/front_fr.12.400.jpg",
+      "id": 67
     }
   ]
 }

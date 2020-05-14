@@ -1,29 +1,33 @@
 
 <div>
   <button (click)="this.delete()"> Supprimer</button>
-  <table class="table">
-      <td><p>Code</p></td>
-      <td><p>Product Name</p></td>
-      <td><h4>Nutriscore</h4></td>
-      <td><h3>Product Country</h3></td>
-      <td><h3>Product Label</h3></td>
-      <td><h3>Product Brand</h3></td>
-      <td><h3>Product Stores</h3></td>
-      <td><h3>Product Categories</h3></td>
-      <td><h3>Image</h3></td>
-  </table>  
+
   <table>
+    <thead>
+      <tr class="header">
+    <td><p>Code</p></td>
+    <td><p>Product Name</p></td>
+    <td><h3>Nutriscore</h3></td>
+    <td><h3>Product Country</h3></td>
+    <td><h3>Product Label</h3></td>
+    <td><h3>Product Brand</h3></td>
+    <td><h3>Product Stores</h3></td>
+    <td><h3>Product Categories</h3></td>
+    <td><h3>Image</h3></td>
+  </tr>
+  </thead>
+  <tbody>
     <tr *ngIf="article">
       <td><p><a class="codeArticle" [routerLink]="['/articles',this.article.id]">{{this.Code}}</a></p></td>
       <td><p>{{this.productName}}</p></td>
-      <td><h4>{{this.productNutriscore}}</h4></td>
+      <td><h3>{{this.productNutriscore}}</h3></td>
       <td><h3>{{this.productCountry}}</h3></td>
       <td><h3>{{this.productLabels}}</h3></td>
       <td><h3>{{this.productBrands}}</h3></td>
       <td><h3>{{this.productStores}}</h3></td>
       <td><h3>{{this.productCategories}}</h3></td>
-      <td><h3><img class="imageArticle" src={{this.productImage}}></h3></td>
-
+      <td><h3 class="imageArticle"><img class="img2" height="auto" width="auto" max-height="200" max-width="200" src={{this.productImage}}></h3></td>
     </tr>
+  </tbody>
   </table>  
 </div>
