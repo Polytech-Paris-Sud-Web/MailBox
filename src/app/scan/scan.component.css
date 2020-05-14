@@ -45,3 +45,26 @@ h3 {
     background-color: white;
     color: darkorange;
   }
+
+  img {
+    max-width: 300px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+.center-block{
+  background-position: center;
+  border-radius: 10px;
+  width: 600px;
+  height:20px;
+  position:relative;
+  margin: auto;
+  background:gainsboro;
+  padding:5px;
+  border-style:groove ;
+  text-align: center;
+  padding-top:10px;
+  float:left;
+}

@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Article } from '../article/article.class';
 import { ArticleService } from '../article.service';
 
+
 @Component({
   selector: 'app-list-article',
   templateUrl: './list-article.component.html',

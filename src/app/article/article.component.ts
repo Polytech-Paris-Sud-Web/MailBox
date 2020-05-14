@@ -41,6 +41,7 @@ export class ArticleComponent implements OnInit {
     return this.article.countries;
   }
 
+
   ngOnInit(){
     this.route.params.subscribe((params) => {
       if ("id" in params) {
@@ -51,7 +52,7 @@ export class ArticleComponent implements OnInit {
         )
       }
     })
-    this.records = this.articleService.getData()
+    this.records = this.articleService.getData(this.article.Code)
   }
   
   delete(): void {

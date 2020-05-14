@@ -29,54 +29,79 @@
       "nutriscore_grade": null
     },
     {
-      "Code": "0000000000031",
-      "id": 11,
-      "product_name": "Cacao",
-      "countries": "France",
-      "nutriscore_grade": null
+      "Code": "5901234123457   ",
+      "product_name": "test",
+      "countries": "test",
+      "nutriscore_grade": "test",
+      "id": 31
     },
     {
-      "Code": "0000003327986",
-      "id": 12,
-      "product_name": "Filetes de pollo empanado",
-      "countries": "Espagne",
-      "nutriscore_grade": null
+      "Code": "5901234123457          ",
+      "product_name": "test",
+      "countries": "test",
+      "nutriscore_grade": "test",
+      "id": 34
     },
     {
-      "Code": "0000000000100",
-      "id": 13,
-      "product_name": " moutarde au goût de raisin ",
-      "countries": "France",
-      "nutriscore_grade": "D"
+      "Code": "5901234123457   ",
+      "product_name": "houria",
+      "countries": "test",
+      "nutriscore_grade": "test",
+      "id": 35
     },
     {
-      "Code": "",
-      "id": 18
+      "Code": "5901234123456",
+      "product_name": "test",
+      "countries": "test",
+      "nutriscore_grade": "test",
+      "id": 37
     },
     {
-      "Code": "",
-      "id": 19
+      "Code": "3800065711135 ",
+      "product_name": "",
+      "countries": "",
+      "nutriscore_grade": "",
+      "id": 38
     },
     {
       "Code": "",
       "product_name": "",
+      "brands": "",
       "countries": "",
       "nutriscore_grade": "",
-      "id": 20
+      "id": 39
+    },
+    {
+      "Code": "3027030038381 ",
+      "product_name": "",
+      "brands": "",
+      "countries": "",
+      "nutriscore_grade": "",
+      "id": 40
+    },
+    {
+      "Code": "3027030038381 ",
+      "product_name": "Mon Fondant au chocolat ",
+      "brands": "Ancel,Dr. Oetker ",
+      "countries": "France ",
+      "nutriscore_grade": " ",
+      "id": 41
     },
     {
       "Code": "",
       "product_name": "",
+      "brands": "",
       "countries": "",
       "nutriscore_grade": "",
-      "id": 21
+      "id": 42
     },
     {
-      "Code": "",
-      "product_name": "",
-      "countries": "",
-      "nutriscore_grade": "",
-      "id": 22
+      "Code": null,
+      "product_name": null,
+      "brands": null,
+      "countries": null,
+      "nutriscore_grade": null,
+      "id": 43
     }
   ]
 }

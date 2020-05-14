@@ -8,31 +8,42 @@
        <small style="color: blue" class="form-control" id="valeurCode">{{value}}</small>
       </h2>
 
+      <img [src]="image_front_url">
       <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
-      <barcode-scanner [(value)]="value"
+      <barcode-scanner [(value)]="value" (valueChange)="onValueChange($event)"
                        [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1"
-                       (exception)="onError($event)"></barcode-scanner>           
+                       (exception)="onError($event)"></barcode-scanner>                           
       <app-barcode-generator [bc-value]="value" [bc-display-value]="true"></app-barcode-generator>
 
+      <label class="informations">
 
       <label class="center-block">Code:
         <input class="form-control" formControlName="Code" value={{value}}>
       </label>
 
       <label class="center-block">Product name:
-        <input class="form-control" formControlName="product_name">
+        <input class="form-control" formControlName="product_name" [(value)]="product_name">
       </label>
 
+      <label class="center-block">Brands:
+        <input class="form-control" formControlName="brands"  [(value)]="brands">
+      </label>
+
+
       <label class="center-block">Nutriscore:
-        <input class="form-control" formControlName="nutriscore_grade">
+        <input class="form-control" formControlName="nutriscore_grade" [(value)]="nutriscore_grade">
       </label>
 
       <label class="center-block">Countries:
-        <input class="form-control" formControlName="countries">
+        <input class="form-control" formControlName="countries"  [(value)]="countries">
       </label>
 
-
+      <label class="center-block">Labels:
+        <input class="form-control" formControlName="labels"  [(value)]="countries">
+      </label>
+    </label>
       <button class="button" type="submit">Enregistrer l'article</button>
     </div>
+    
 </form>
 </div>
