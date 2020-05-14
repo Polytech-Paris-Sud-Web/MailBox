@@ -18,6 +18,9 @@ export class ScanComponent implements OnInit {
   countries = '';
   labels = '';
   image_front_url = '';
+  categories = '';
+  stores = '';
+
   constructor(
     private articleService: ArticleService,
     private fb: FormBuilder) {
@@ -28,6 +31,9 @@ export class ScanComponent implements OnInit {
     countries:['', Validators.required],
     labels:['', Validators.required],
     nutriscore_grade:['',Validators.required],
+    categories:['',Validators.required],
+    stores:['',Validators.required],
+
   });
   }
 
@@ -75,8 +81,11 @@ export class ScanComponent implements OnInit {
         if (result.product.brands) {
           this.brands = result.product.brands;
         }
-        if (result.product.nutriscore_grade) {
-          this.nutriscore_grade = result.product.nutriscore_grade; // update formbuilder product nutriscore grade info
+        if (result.product.categories) {
+          this.categories = result.product.categories;
+        }
+        if (result.product.stores) {
+          this.stores = result.product.stores;
         }
         if (result.product.countries) {
           this.countries = result.product.countries; // update formbuilder product country info
@@ -86,6 +95,9 @@ export class ScanComponent implements OnInit {
         }
         if (result.product.labels) {
           this.labels = result.product.labels;
+        }
+        if (result.product.nutriscore_grade) {
+          this.nutriscore_grade = result.product.nutriscore_grade; // update formbuilder product nutriscore grade info
         }
       }, (err) => {
         console.log(err);
