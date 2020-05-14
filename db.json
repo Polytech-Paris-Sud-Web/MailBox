@@ -76,6 +76,66 @@
       "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Crèmes de citron",
       "stores": "Sainsbury's",
       "id": 57
+    },
+    {
+      "Code": "3017620424403",
+      "product_name": "Nutella",
+      "brands": "Nutella, Ferrero",
+      "countries": "Belgique, France, Suisse",
+      "labels": "Sans colorants, Sans conservateurs",
+      "nutriscore_grade": "e",
+      "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Pâtes à tartiner aux noisettes, Pâtes à tartiner au chocolat, Pâtes à tartiner aux noisettes et au cacao",
+      "stores": "",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/301/762/042/4403/front_en.31.400.jpg",
+      "id": 59
+    },
+    {
+      "Code": "3017620424403",
+      "product_name": "Nutella",
+      "brands": "Nutella, Ferrero",
+      "countries": "Belgique, France, Suisse",
+      "labels": "Sans colorants, Sans conservateurs",
+      "nutriscore_grade": "e",
+      "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Pâtes à tartiner aux noisettes, Pâtes à tartiner au chocolat, Pâtes à tartiner aux noisettes et au cacao",
+      "stores": "",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/301/762/042/4403/front_en.31.400.jpg",
+      "id": 60
+    },
+    {
+      "Code": "3256224060963",
+      "product_name": "U douceur mouchoir",
+      "brands": "U",
+      "countries": "en:France",
+      "labels": "",
+      "nutriscore_grade": "",
+      "categories": "",
+      "stores": "",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/325/622/406/0963/front_fr.3.400.jpg",
+      "id": 61
+    },
+    {
+      "Code": "3027030038381",
+      "product_name": "Mon Fondant au chocolat",
+      "brands": "Ancel,Dr. Oetker",
+      "countries": "France",
+      "labels": "Fabriqué en France,Sans colorants,Sans conservateurs",
+      "nutriscore_grade": "",
+      "categories": "Snacks, Snacks sucrés, Biscuits et gâteaux, Gâteaux, Aides culinaires, Préparations pour desserts, Aides à la pâtisserie, Préparations pour gâteaux, Gâteaux au chocolat",
+      "stores": "Magasins U",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/302/703/003/8381/front_fr.27.400.jpg",
+      "id": 62
+    },
+    {
+      "Code": "01268584",
+      "product_name": "Lemon curd",
+      "brands": "Sainsbury's",
+      "countries": "Royaume-Uni",
+      "labels": "",
+      "nutriscore_grade": "d",
+      "categories": "Produits à tartiner, Petit-déjeuners, Produits à tartiner sucrés, Pâtes à tartiner, Crèmes de citron",
+      "stores": "Sainsbury's",
+      "image_front_url": "https://static.openfoodfacts.org/images/products/01268584/front_fr.14.400.jpg",
+      "id": 63
     }
   ]
 }

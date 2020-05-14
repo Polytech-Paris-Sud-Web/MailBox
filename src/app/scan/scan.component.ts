@@ -33,7 +33,7 @@ export class ScanComponent implements OnInit {
     nutriscore_grade:['',Validators.required],
     categories:['',Validators.required],
     stores:['',Validators.required],
-
+    image_front_url:['',Validators.required],
   });
   }
 
@@ -108,6 +108,12 @@ export class ScanComponent implements OnInit {
             countries: result.product.countries
           });
         }
+        if (result.product.image_front_url) {
+          //   this.labels = result.product.labels;
+             this.articleForm.patchValue({
+               image_front_url: result.product.image_front_url
+             });
+           }
         if (result.product.image_front_url) {
             this.image_front_url = result.product.image_front_url;
         }
