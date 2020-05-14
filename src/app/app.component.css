@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    background: rgb(32, 134, 138);
+}
+
+header::after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+nav {
+    float:left;
+}
+
+nav ul{
+   margin:0;
+   padding:0;
+   list-style:none; 
+}
+
+nav li {
+    display: inline-block;
+    margin-left:70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+nav a::before{
+    content:'';
+    display:block;
+    height:5px;
+    background-color:#444;
+
+    position:absolute;
+    top:0;
+    width:0%;
+
+    transition: all ease-in-out 200ms;
+}
+
+nav a:hover::before{
+    width:80%;
+}
+
+
+  input {
+    margin-top: 5px;
+    float: right;
+  }
+
+
+  .nomAppli {
+    color: rgb(32, 9, 158);
+    font-style: oblique;
+    font-variant: small-caps;
+    float: right;
+    margin-right: 80px;
+    font-size: 20px;
+  }

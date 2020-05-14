@@ -67,49 +67,41 @@ export class ScanComponent implements OnInit {
           Code: codebar
         });
         if (result.product.product_name) {
-          //this.product_name = result.product.product_name;
            this.articleForm.patchValue({
             product_name: result.product.product_name
          });
         }
         else if (result.product.product_name_fr){
-         // this.product_name = result.product.product_name_fr;
          this.articleForm.patchValue({
           product_name: result.product.product_name_fr
        });
         }
         else if (result.product.product_name_en){
-      //    this.product_name = result.product.product_name_en;
         this.articleForm.patchValue({
         product_name: result.product.product_name_en
          });
         }
         if (result.product.brands) {
-        //  this.brands = result.product.brands;
         this.articleForm.patchValue({
           brands: result.product.brands
            });
         }
         if (result.product.categories) {
-       //   this.categories = result.product.categories;
          this.articleForm.patchValue({
           categories: result.product.categories
          });
         }
         if (result.product.stores) {
-        //   this.stores = result.product.stores;
           this.articleForm.patchValue({
             stores: result.product.stores
           });
         }
         if (result.product.countries) {
-    //      this.countries = result.product.countries;
           this.articleForm.patchValue({
             countries: result.product.countries
           });
         }
         if (result.product.image_front_url) {
-          //   this.labels = result.product.labels;
              this.articleForm.patchValue({
                image_front_url: result.product.image_front_url
              });
@@ -118,13 +110,11 @@ export class ScanComponent implements OnInit {
             this.image_front_url = result.product.image_front_url;
         }
         if (result.product.labels) {
-       //   this.labels = result.product.labels;
           this.articleForm.patchValue({
             labels: result.product.labels
           });
         }
         if (result.product.nutriscore_grade) {
-        //  this.nutriscore_grade = result.product.nutriscore_grade; 
             this.articleForm.patchValue({
               nutriscore_grade: result.product.nutriscore_grade
             });

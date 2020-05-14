@@ -24,8 +24,8 @@ button {
   div {
     margin-top: 1%;
     background-color: #F5F5F5;
-    margin-right: 5%;
-    margin-left: 10%;
+    margin-right: 3%;
+    margin-left: 3%;
     box-shadow: 2px 2px 1px #444;
   }
 
@@ -36,14 +36,15 @@ button {
   }
 
   h4 {
-    color: green;
-    font-size: 80%;
+    color: rgb(33, 59, 9);
+    font-size: 90%;
   }
 
   .codeArticle {
-    font-size: 90%;
+    font-size: 100%;
     color: rgb(61, 60, 60);
     font-weight: bold;
+    text-align: center;
   }
 
   p {
@@ -66,7 +67,6 @@ button {
 
   .imageArticle{
       padding: 5px;
-      border: 5px solid gray;
       margin: 0;
     }
 
@@ -76,4 +76,10 @@ button {
       margin-right: auto;
       width: 150px;
       padding: 10px 20px;
+      max-height: 300px;
+
     }
+
+  .productName{
+    background-color: rgb(58, 114, 102);
+  }

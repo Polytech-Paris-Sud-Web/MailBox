@@ -38,7 +38,7 @@ export class ArticleComponent implements OnInit {
   }
 
   get productCountry(): string {
-    return this.article.countries;
+    return this.article.countries = this.article.countries;
   }
 
   get productBrands(): string {

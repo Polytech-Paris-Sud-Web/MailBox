@@ -1,20 +1,25 @@
 <div>
-  <h3>Passer le code-barre devant la caméra ci-dessous</h3>
+  <h2>Passer le code-barre devant la caméra ci-dessous</h2>
 
   <form [formGroup]="articleForm" (ngSubmit)="create()">
     <div class="form-group">
 
-      <h2>Code barre détecté :
+      <!--h2>Code barre détecté :
        <small style="color: blue" class="form-control" id="valeurCode">{{value}}</small>
-      </h2>
+      </h2-->
 
-      <img [src]="image_front_url">
-      <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
+      <table>
+        <tr>
+      <td> 
+        <p style="color:red" *ngIf="isError">Barcode scan is not available.</p>
       <barcode-scanner [(value)]="value" (valueChange)="onValueChange($event)"
                        [codes]="['code_128', 'ean', 'upc', 'upc_e', 'ean_8']" [errorThreshold]="0.1"
-                       (exception)="onError($event)"></barcode-scanner>                           
-      <app-barcode-generator [bc-value]="value" [bc-display-value]="true"></app-barcode-generator>
-
+                       (exception)="onError($event)"></barcode-scanner>
+      </td>       
+      <td><img [src]="image_front_url"></td>                   
+      <td><app-barcode-generator [bc-value]="value" [bc-display-value]="true"></app-barcode-generator></td> 
+    </tr>
+      </table>
       <label class="informations">
 
       <label class="center-block">Code:

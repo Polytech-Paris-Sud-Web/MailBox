@@ -10,7 +10,7 @@ let jsbarcode = require('jsbarcode');
 })
 export class BarcodeGeneratorComponent implements OnChanges {
 
-  @Input('bc-element-type') elementType: 'svg' | 'img' | 'canvas' = 'svg';
+  @Input('bc-element-type') elementType: 'svg' | 'img'  = 'svg';
   @Input('bc-class') cssClass = 'barcode';
 
   @Input('bc-format') format: '' | 'CODE128' | 'CODE128A' | 'CODE128B' | 'CODE128C' | 'EAN' | 'UPC' | 'EAN8' | 'EAN5' |
@@ -71,9 +71,6 @@ export class BarcodeGeneratorComponent implements OnChanges {
     switch (this.elementType) {
       case 'img':
         element = this.renderer.createElement('img');
-        break;
-      case 'canvas':
-        element = this.renderer.createElement('canvas');
         break;
       case 'svg':
       default:
